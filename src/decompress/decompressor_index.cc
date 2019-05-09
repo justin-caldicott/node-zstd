@@ -7,7 +7,6 @@ namespace ZSTD_NODE {
     StreamDecompressor::Init(target);
   }
 
-  NODE_MODULE_INIT() {
-    Init(exports);
-  }
+  NODE_MODULE(decompressor, Init)
+
 }
