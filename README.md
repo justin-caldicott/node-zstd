@@ -1,19 +1,24 @@
-node-zstd [![version](https://img.shields.io/npm/v/node-zstd.svg)](https://www.npmjs.com/package/node-zstd) [![ZSTD/v1.3.4](https://img.shields.io/badge/ZSTD-v1.3.4-green.svg)](https://github.com/facebook/zstd/releases/tag/v1.3.4)
+node-zstd [![version](https://img.shields.io/npm/v/node-zstd.svg)](https://www.npmjs.com/package/node-zstd) [![ZSTD/v1.4.0](https://img.shields.io/badge/ZSTD-v1.4.0-green.svg)](https://github.com/facebook/zstd/releases/tag/v1.4.0)
 =====
 
 [![Build Status][1]][2]
 
-[1]: https://travis-ci.org/zwb-ict/node-zstd.svg?branch=master
-[2]: https://travis-ci.org/zwb-ict/node-zstd
+[1]: https://travis-ci.org/hanxue/node-zstd.svg?branch=master
+[2]: https://travis-ci.org/hanxue/node-zstd
 
 Zstd wrapper for Nodejs
 
 ## Installation
 
 ```bash
-$ npm install node-zstd --save
+$ npm install hanxue/node-zstd --save
 ```
 
+or
+
+```bash
+$ yarn add hanxue/node-zstd
+```
 ## Usage
 
 ### Async

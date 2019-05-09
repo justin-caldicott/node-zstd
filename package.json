@@ -1,6 +1,6 @@
 {
   "name": "node-zstd",
-  "version": "2.0.1",
+  "version": "1.4.0",
   "description": "Zstd wrapper for Nodejs",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zwb-ict/node-zstd.git"
+    "url": "git+https://github.com/hanxue/node-zstd.git"
   },
   "keywords": [
     "zstd",
