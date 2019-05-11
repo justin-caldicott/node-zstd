@@ -15,6 +15,7 @@
     "README.md",
     "LICENSE",
     "package.json",
+    "Makefile",
     "index.js",
     "src/",
     "build/",
