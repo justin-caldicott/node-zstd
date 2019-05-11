@@ -11,6 +11,15 @@
     "rebuild": "node-gyp -j 16 rebuild",
     "clean": "node-gyp clean"
   },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "index.js",
+    "src/",
+    "build/",
+    "deps/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hanxue/node-zstd.git"
@@ -36,11 +45,11 @@
   "dependencies": {
     "bindings": "^1.2.1",
     "nan": "^2.4.0",
-    "nyc": "^13.0.1",
     "segfault-handler": "^1.0.1"
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1"
   }
 }
