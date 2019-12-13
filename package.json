@@ -18,7 +18,8 @@
     "index.js",
     "src/",
     "build/",
-    "deps/"
+    "deps/",
+    "binding.gyp"
   ],
   "repository": {
     "type": "git",
